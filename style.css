@@ -1,0 +1,40 @@
+* {
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html {
+    background-color: #171717;
+
+}
+.error-section {
+    position: absolute;
+    top: 40em;
+    width: 100vw;
+    background-color: #171717;
+    color: #fff;
+}
+.error-message h2 {
+    color: darkred;
+}
+.form-section {
+    height: 100%;
+    width: 100vw;
+    background-color: #171717;
+}
+.form-container {
+    height: 100vh;
+    display: flex;
+    align-items: center;
+}
+.form-title {
+    margin-bottom: 1.2em;
+    color: #fff;
+}
+.form-row {
+    display: flex;
+    align-items: center;
+}
+.submit-btn{
+    margin-top: 0.6em;
+}
